@@ -1,0 +1,26 @@
+{
+  "name": "shein-api",
+  "version": "1.0.0",
+  "description": "API for Shein Store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xone46/shein-API.git"
+  },
+  "author": "xone46",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xone46/shein-API/issues"
+  },
+  "homepage": "https://github.com/Xone46/shein-API#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
